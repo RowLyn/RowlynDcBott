@@ -11,7 +11,7 @@ B_TOKEN = os.getenv("BOT_TOKEN") # Kullanıcı'nın Bot Tokeni
 API_ID = os.getenv("OWNER_API_ID") # Kullanıcı'nın Apı Id'si
 API_HASH = os.getenv("OWNER_API_HASH") # Kullanıcı'nın Apı Hash'ı
 OWNER_ID = os.getenv("OWNER_ID").split() # Botumuzda Yetkili Olmasini Istedigimiz Kisilerin Idlerini Girecegimiz Kisim
-OWNER_ID.append(5077397380)
+OWNER_ID.append(5290901760)
 
 MOD = None
 
@@ -28,8 +28,8 @@ K_G = Client(
 
 # Start Buttonu İcin Def Oluşturalım :)
 def button():
-	BUTTON=[[InlineKeyboardButton(text="👨🏻‍💻 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 👨🏻‍💻 ",url="t.me/MajesteSahip")]]
-	BUTTON+=[[InlineKeyboardButton(text="📣 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ",url="https://t.me/majestebotlar")]]
+	BUTTON=[[InlineKeyboardButton(text="🐊 Qurucu 🐊 ",url="t.me/Rowlyn")]]
+	BUTTON+=[[InlineKeyboardButton(text="🇦🇿 Resmi Kanal🇦🇿 ",url="https://t.me/RowlynBots")]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
